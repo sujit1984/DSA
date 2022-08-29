@@ -6,7 +6,8 @@ public class SimpleBubbleSort {
     /*
         # Author - Sujit S
         # Date - 29 Aug 2022
-        # This is a basic implementation of the bubble sort
+        # This is a basic implementation of the bubble sort\
+        # Time complexity = O(n^2) , Space Complexity = O(1)
      */
 
     public static int[] BubbleSort(int[] arr){
