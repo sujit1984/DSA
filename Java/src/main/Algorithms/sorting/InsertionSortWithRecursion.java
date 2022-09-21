@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class InsertionSortWithRecursion {
 
+     /*
+        # Author - Sujit S
+        # Date - 21 Sept 2022
+        # This is a basic implementation of the insertion sort by using recursion instead of iteration
+      */
+
     public static void insertionSortWithRecursion(int[] arr, int numItems){
         if (numItems <2)
             return;   //condition to end the recursion
