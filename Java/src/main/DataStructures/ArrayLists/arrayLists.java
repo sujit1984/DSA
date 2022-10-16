@@ -35,5 +35,10 @@ public class arrayLists {
         employeeList.add(3, new Employee("Arjun", "Reddy", 879));
         employeeList.forEach(employee -> System.out.println(employee));
 
+        //Search if a particular object is present in the arrayList
+        System.out.println(employeeList.contains(new Employee("Arindam", "Bhanu", 1333)));
+
+        System.out.println(employeeList.indexOf(new Employee("Arjun", "Reddy", 879 )));
+
     }
 }
