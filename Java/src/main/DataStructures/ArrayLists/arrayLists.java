@@ -40,5 +40,10 @@ public class arrayLists {
 
         System.out.println(employeeList.indexOf(new Employee("Arjun", "Reddy", 879 )));
 
+        //Now let's remove some items from the list
+        employeeList.remove(2);   // James Bond will be removed.
+        employeeList.forEach(employee -> System.out.println(employee));
+
+
     }
 }
