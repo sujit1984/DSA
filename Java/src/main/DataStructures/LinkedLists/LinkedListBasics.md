@@ -11,3 +11,8 @@
     **Implementation**
     To implement the linked list we will first create a node class which will contain a field for whatever data we are holding in that node. And then we will have a **next** field, which will be of the type **node** since it points to the node which comes after it. 
     Thus if we have the reference to the **head** field we can traverse the entire list. We can start at head and then move on to **head.next** and then next and so on until we hit **null**, thus traversing the entire list.
+    
+    **Actions on Linked Lists**
+    1. Insert
+        If we insert the items at the front of the linked list , then this action can be performed in O(1) time complexity. This is because the steps required to perform this action don't depend on the number of items in the list. 
+        
